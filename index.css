@@ -1,0 +1,31 @@
+/* Importa una fuente alegre y moderna */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap');
+
+/* Variables de color para mantener coherencia */
+:root {
+  --bg-start: #ffecd2;
+  --bg-end: #fcb69f;
+  --primary: #ff6f61;
+  --primary-hover: #ff3b2f;
+  --text-dark: #2d3436;
+  --shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Reset básico y estilos globales */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: linear-gradient(135deg, var(--bg-start) 0%, var(--bg-end) 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
